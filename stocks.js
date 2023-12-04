@@ -1,6 +1,6 @@
 /* node Stocks.js --url="https://www.equitymaster.com/stockquotes/1-69/list-of-nifty-100-stocks" --dest="stocksWala.html" --source="stocksWala.html" --json="Stocks.json" --destFolder="StockFolder" --csv="Stocks.csv"
  */
-// node Stocks.js 
+// npm install minimist
 let minimist = require("minimist");
 let fs = require("fs");
 
